@@ -1,0 +1,74 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+nav {
+    z-index: 1;
+}
+
+.row2 {
+    display: flex;
+}
+
+#header_row {
+    font-size: 70px;
+    font-weight: 600;
+    height: auto;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+}
+
+#center_img {
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}
+
+img {
+    border-radius: 25px;
+    max-height: 500px !important;
+    height: 100%;
+    width: 100%;
+    max-width: 350px;
+    filter: drop-shadow(2px 4px 6px #6b6b6b);
+}
+
+#profile_background {
+    background-position: bottom;
+    background-image: url(/img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+    width: 100%;
+    margin: -50px 0px 0px 0px;
+    height: 500px;
+    top: 0;
+    position: fixed;
+}
+
+#about {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 10px 0px 10px;
+}
+
+.width{
+    margin: 100px auto 0px auto;
+    padding: 0px 10px 0px 10px !important;
+    max-width: 600px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+ul,
+.skill,
+.port,
+.contact,
+.tool {
+    font-size: 20px;
+}
